@@ -1,11 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App.eShop", "App.eShop", "{383A4ED9-ABF9-44B0-B1B7-78A784E13474}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{BCF1D59F-C778-4BE7-9D9A-154FBFD3CEBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{986F98A9-1125-4125-ABD0-128B4535A96E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackendServices", "BackendServices", "{06D8680F-1B9E-4D82-9A64-200FC5B408FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontendServices", "FrontendServices", "{69884D40-8035-4C0A-A57B-C1DDD947A8AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthService", "AuthService", "{2A5E6149-8130-4A5D-8BCD-156C7E90A5F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{93487A8F-5CB0-4615-BEAB-ABC18F4DAFE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CatalogService", "CatalogService", "{8128EFBD-160C-4D8D-9D4E-D163EEFB5ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Domain", "BackendServices\AuthService\AuthService.Domain\AuthService.Domain.csproj", "{48DE30F9-944C-41A4-A473-64D404487174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Application", "BackendServices\AuthService\AuthService.Application\AuthService.Application.csproj", "{281B266D-E817-4F18-972E-9583F374BCF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Infrastructure", "BackendServices\AuthService\AuthService.Infrastructure\AuthService.Infrastructure.csproj", "{56DF447F-55CE-41AE-8BD4-FBFA7B57EA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.API", "BackendServices\AuthService\AuthService.API\AuthService.API.csproj", "{B9D9F2F3-955B-4C3A-A380-CDAE25A5A5E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,15 +29,33 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{986F98A9-1125-4125-ABD0-128B4535A96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{986F98A9-1125-4125-ABD0-128B4535A96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{986F98A9-1125-4125-ABD0-128B4535A96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{986F98A9-1125-4125-ABD0-128B4535A96E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DE30F9-944C-41A4-A473-64D404487174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DE30F9-944C-41A4-A473-64D404487174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DE30F9-944C-41A4-A473-64D404487174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DE30F9-944C-41A4-A473-64D404487174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281B266D-E817-4F18-972E-9583F374BCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281B266D-E817-4F18-972E-9583F374BCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281B266D-E817-4F18-972E-9583F374BCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281B266D-E817-4F18-972E-9583F374BCF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DF447F-55CE-41AE-8BD4-FBFA7B57EA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DF447F-55CE-41AE-8BD4-FBFA7B57EA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DF447F-55CE-41AE-8BD4-FBFA7B57EA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DF447F-55CE-41AE-8BD4-FBFA7B57EA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D9F2F3-955B-4C3A-A380-CDAE25A5A5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D9F2F3-955B-4C3A-A380-CDAE25A5A5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D9F2F3-955B-4C3A-A380-CDAE25A5A5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D9F2F3-955B-4C3A-A380-CDAE25A5A5E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{986F98A9-1125-4125-ABD0-128B4535A96E} = {383A4ED9-ABF9-44B0-B1B7-78A784E13474}
+		{2A5E6149-8130-4A5D-8BCD-156C7E90A5F2} = {06D8680F-1B9E-4D82-9A64-200FC5B408FC}
+		{93487A8F-5CB0-4615-BEAB-ABC18F4DAFE9} = {06D8680F-1B9E-4D82-9A64-200FC5B408FC}
+		{8128EFBD-160C-4D8D-9D4E-D163EEFB5ABB} = {06D8680F-1B9E-4D82-9A64-200FC5B408FC}
+		{48DE30F9-944C-41A4-A473-64D404487174} = {2A5E6149-8130-4A5D-8BCD-156C7E90A5F2}
+		{281B266D-E817-4F18-972E-9583F374BCF0} = {2A5E6149-8130-4A5D-8BCD-156C7E90A5F2}
+		{56DF447F-55CE-41AE-8BD4-FBFA7B57EA02} = {2A5E6149-8130-4A5D-8BCD-156C7E90A5F2}
+		{B9D9F2F3-955B-4C3A-A380-CDAE25A5A5E4} = {2A5E6149-8130-4A5D-8BCD-156C7E90A5F2}
 	EndGlobalSection
 EndGlobal

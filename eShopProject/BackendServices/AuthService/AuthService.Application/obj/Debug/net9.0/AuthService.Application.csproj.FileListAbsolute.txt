@@ -1,0 +1,12 @@
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\bin\Debug\net9.0\AuthService.Application.deps.json
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\bin\Debug\net9.0\AuthService.Application.dll
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\bin\Debug\net9.0\AuthService.Application.pdb
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\obj\Debug\net9.0\AuthService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\obj\Debug\net9.0\AuthService.Application.AssemblyInfoInputs.cache
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\obj\Debug\net9.0\AuthService.Application.AssemblyInfo.cs
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\obj\Debug\net9.0\AuthService.Application.csproj.CoreCompileInputs.cache
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\obj\Debug\net9.0\AuthService.Application.sourcelink.json
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\obj\Debug\net9.0\AuthService.Application.dll
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\obj\Debug\net9.0\refint\AuthService.Application.dll
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\obj\Debug\net9.0\AuthService.Application.pdb
+D:\Scholarhat\Project\eShop\eShopProject\BackendServices\AuthService\AuthService.Application\obj\Debug\net9.0\ref\AuthService.Application.dll
